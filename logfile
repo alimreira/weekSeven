@@ -1,0 +1,14 @@
+2024-10-31 12:07:52.843 WAT [1442] LOG:  starting PostgreSQL 15.8 (Postgres.app) on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2024-10-31 12:07:52.847 WAT [1442] LOG:  listening on IPv6 address "::1", port 5432
+2024-10-31 12:07:52.847 WAT [1442] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-10-31 12:07:52.851 WAT [1442] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-10-31 12:07:52.864 WAT [1445] LOG:  database system was shut down at 2024-10-31 12:06:09 WAT
+2024-10-31 12:07:52.873 WAT [1442] LOG:  database system is ready to accept connections
+2024-10-31 12:10:40.874 WAT [1464] FATAL:  role "postgres" does not exist
+2024-10-31 12:12:07.751 WAT [1442] LOG:  received fast shutdown request
+2024-10-31 12:12:07.751 WAT [1442] LOG:  aborting any active transactions
+2024-10-31 12:12:07.758 WAT [1442] LOG:  background worker "logical replication launcher" (PID 1448) exited with exit code 1
+2024-10-31 12:12:07.758 WAT [1443] LOG:  shutting down
+2024-10-31 12:12:07.759 WAT [1443] LOG:  checkpoint starting: shutdown immediate
+2024-10-31 12:12:07.769 WAT [1443] LOG:  checkpoint complete: wrote 47 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.003 s, total=0.011 s; sync files=11, longest=0.001 s, average=0.001 s; distance=272 kB, estimate=272 kB
+2024-10-31 12:12:07.775 WAT [1442] LOG:  database system is shut down
