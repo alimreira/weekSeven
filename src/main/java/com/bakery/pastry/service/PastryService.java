@@ -1,5 +1,6 @@
 package com.bakery.pastry.service;
 
+import com.bakery.pastry.exception.ResourceNotFoundException;
 import com.bakery.pastry.model.Pastry;
 import com.bakery.pastry.repository.PastryRepository;
 import org.springframework.beans.factory.annotation.Autowired;

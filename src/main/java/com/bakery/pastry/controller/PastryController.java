@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/pastries")
-public class PastryProductionController {
+public class PastryController {
 
     @Autowired
     private PastryService service;

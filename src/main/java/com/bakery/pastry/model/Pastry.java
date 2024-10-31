@@ -15,17 +15,12 @@ public class Pastry {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message = "Pastry name is required")
     private String pastryName;
 
-    @NotNull(message = "Production date is required")
     private LocalDate productionDate;
 
-    @NotNull(message = "Quantity is required")
     private Integer quantity;
 
-    @NotNull(message = "Price per unit is required")
-    @Min(value = 0, message = "Price per unit cannot be negative")
     private Double pricePerUnit;
 
     // Getters and Setters
